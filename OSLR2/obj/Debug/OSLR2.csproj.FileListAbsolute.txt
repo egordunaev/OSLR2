@@ -1,0 +1,14 @@
+C:\Users\dk13\source\repos\OSLR2\OSLR2\bin\Debug\OSLR2.exe.config
+C:\Users\dk13\source\repos\OSLR2\OSLR2\bin\Debug\OSLR2.exe
+C:\Users\dk13\source\repos\OSLR2\OSLR2\bin\Debug\OSLR2.pdb
+C:\Users\dk13\source\repos\OSLR2\OSLR2\obj\Debug\OSLR2.csprojResolveAssemblyReference.cache
+C:\Users\dk13\source\repos\OSLR2\OSLR2\obj\Debug\OSLR2.csproj.CoreCompileInputs.cache
+C:\Users\dk13\source\repos\OSLR2\OSLR2\obj\Debug\OSLR2.exe
+C:\Users\dk13\source\repos\OSLR2\OSLR2\obj\Debug\OSLR2.pdb
+E:\Programs\_program_stuff\Visual Studio\Projects\OSLR2\OSLR2\bin\Debug\OSLR2.exe.config
+E:\Programs\_program_stuff\Visual Studio\Projects\OSLR2\OSLR2\bin\Debug\OSLR2.exe
+E:\Programs\_program_stuff\Visual Studio\Projects\OSLR2\OSLR2\bin\Debug\OSLR2.pdb
+E:\Programs\_program_stuff\Visual Studio\Projects\OSLR2\OSLR2\obj\Debug\OSLR2.csprojResolveAssemblyReference.cache
+E:\Programs\_program_stuff\Visual Studio\Projects\OSLR2\OSLR2\obj\Debug\OSLR2.csproj.CoreCompileInputs.cache
+E:\Programs\_program_stuff\Visual Studio\Projects\OSLR2\OSLR2\obj\Debug\OSLR2.exe
+E:\Programs\_program_stuff\Visual Studio\Projects\OSLR2\OSLR2\obj\Debug\OSLR2.pdb
