@@ -13,11 +13,11 @@ namespace OSLR2
     {
         static int Main(string[] args)
         {
-            string dirpath = @"C:\OSLR2\DIR\"; // Путь рабочей папки.
+            string dirpath = @"C:\OSLR2\"; // Путь рабочей папки.
+            string subdirpath = dirpath + args[1] + @"\";
             string substring = string.Empty;
             int errorcode = 0;
-            if (!Directory.Exists(dirpath))
-                Directory.CreateDirectory(dirpath);
+            
             try
             {
                 string[] lines = File.ReadAllLines(dirpath + args[0]);
@@ -27,28 +27,28 @@ namespace OSLR2
             catch (Exception e)
             {
                 errorcode = 1;
-                Console.WriteLine(e.Message+"\nКод ошибки: "+errorcode+"\nЗакрываю программу...");
-                Thread.Sleep(5000);
+                Console.WriteLine(e.Message+"\nКод ошибки: "+errorcode+ "\nНажмите любую клавишу...");
+                Console.ReadKey();
                 return errorcode;
             }
             
             try
             {
-                string subdir = dirpath +args[1]+"\\";
-                Console.WriteLine("Создаю папку: " + subdir + "...");
-                if (!Directory.Exists(dirpath + args[1]))
-                    Directory.CreateDirectory(subdir);
-                Console.WriteLine("Создаю файл "+ subdir + substring + "...");
-                File.Create(subdir+ substring);
+                string subdir = subdirpath +args[1]+"\\";
+                
+                if (!Directory.Exists(subdirpath + args[2] + "\\"))
+                    Directory.CreateDirectory(subdirpath+ args[2]+"\\");
+                Console.WriteLine("Создаю файл "+ subdirpath + args[2] + "\\"+substring + "...");
+                File.Create(subdirpath+args[2]+ "\\" + substring);
             } catch(Exception e)
             {
                 errorcode = 1;
-                Console.WriteLine(e.Message + "\nКод ошибки: " + errorcode + "\nЗакрываю программу...");
-                Thread.Sleep(5000);
+                Console.WriteLine(e.Message + "\nКод ошибки: " + errorcode + "\nНажмите любую клавишу...");
+                Console.ReadKey();
                 return errorcode;
             }
-            Console.WriteLine("Программа завершена. ");
-            Thread.Sleep(5000);
+            Console.WriteLine("Программа завершена. Нажмите любую клавишу...");
+            Console.ReadKey();
             return errorcode;
             
         }
